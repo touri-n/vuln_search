@@ -37,6 +37,7 @@ def getCVEList():
     return output_data
 
 def get_cvss(cve):
+    api_key="3df10090-8307-40ee-b63c-058137c67cd9"
     headers = {
     'Authorization': "{api_key}"
     }
